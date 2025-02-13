@@ -1,0 +1,371 @@
+.dark-gray {
+  background-color: #555;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.logo {
+  width: 340px;
+  height: 45px;
+}
+
+.navbar {
+  background-color: #999;
+  font-size: 16px;
+  background-image: linear-gradient(90deg, #fff, #999);
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  left: 0px;
+  z-index: 2;
+}
+
+.nav-btns {
+  float: right;
+  text-align: right;
+  padding-top: 13.5px;
+}
+
+.video-player {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}
+
+.dropdowns-container {
+  float: right;
+  padding-right: 40px;
+  padding-top: 14px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  list-style-type: none;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  margin-top: 15px;
+  position: absolute;
+  background-color: #bbb;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #fff;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #c98e2b;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Add a background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #c98e2b;
+}
+
+.line-1 {
+  width: 100%;
+  height: 6px;
+  background-color: #c98e2b;
+  box-shadow: 0px 3px 8px 0px #777;
+}
+
+.bg-image-01 {
+	background-image: url("images/xpotech-post-2019-02b.png");
+  height: 600px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body {
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #000;
+}
+
+a {
+  color: #000;
+}
+
+.slogan {
+  width: 100%;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #c98e2b;
+  box-shadow: 0px 5px 10px 0px #ccc;
+  font-size: 1.8em;
+  color: white;
+  text-align: center;
+}
+
+.spacer-1 {
+  margin-top: 120px;
+  margin-bottom: 160px;
+  width: 100%;
+}
+
+.spacer-2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.spacer-3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.spacer-1 {
+  margin-top: 120px;
+  margin-bottom: 80px;
+  width: 100%;
+}
+.grid-container {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.grid-image {
+  max-width: 450px;
+  min-width: 300px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 2px 2px 10px 0px #ccc;
+}
+
+.grid-image:hover {
+  opacity: 0.7;
+  box-shadow: 2px 2px 10px 0px #777;
+}
+
+.grid-image:active {
+  height: 300%;
+  width: 300%;
+}
+
+.grid-item {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  max-width: 450px;
+  min-width: 300px;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.video-item {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 700px;
+	padding: 3%;
+	align: center;
+ }
+
+.video-player {
+  display: inline;
+}
+
+.grid-video {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+.heading {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 60px;
+}
+
+.heading-1 {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.heading-2 {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.p {
+  text-align: left;
+  margin-right: 18%;
+  margin-left: 18%;
+  line-height: 1.6;
+}
+
+::selection {
+  background: rgb(46, 121, 233);
+  color: #fff;
+}
+
+::-moz-selection {
+  background: rgb(46, 121, 233);
+  color: #fff;
+}
+
+.footer-top {
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 400px;
+  background-color: #999;
+}
+
+.footer-left, .footer-right {
+  color: #fff;
+  display: inline-block;
+  float: left;
+  margin-top: 100px;
+  font-size: 1.2em;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.footer-left {
+  padding-left: 25%;
+  font-size: 1.6em;
+}
+
+.footer-right {
+  padding-left: 15%;
+}
+
+.social-media-icon {
+  color: #fff;
+  padding-right: 20px;
+}
+
+.footer-bottom {
+  color: #fff;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #999;
+  text-align: center;
+}
+
+.footer-telephone {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+}
+
+@media only screen and (max-device-width: 768px) {
+  
+  .mobile-logo {
+    display: block; width: 100%; height: 200px;
+    position: fixed; top: 0px; left: 0px; height: 50px;
+    background-color: #fff; background-image: url("images/XponentialTech-logo.svg"); background-repeat: no-repeat;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navbar {
+    background-color: #999;
+    background-image: none;
+    top: 50px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .navbar a {
+    padding: 18px;
+    font-size: 2.5em;
+  }
+  
+  .line-1 {
+    height: 10px;
+  }
+
+  .bg-image-01 {
+    background-attachment: scroll;
+  }
+  
+  body {
+      font-size: 2.4em;
+  }
+  
+  .p {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  
+  .grid-image {
+    max-width: 800px;
+  }
+  
+  .grid-item {
+    max-width: 800px;
+    margin-bottom: 100px;
+  }
+  
+  .footer-left {
+    padding-left: 10%;
+    font-size: .8em;
+  }
+  
+  .footer-right{
+    padding-left: 10%;
+    font-size: .8em;
+  }
+  
+  .footer-bottom {
+    font-size: .8em;
+  }
+}
